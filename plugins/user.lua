@@ -9,4 +9,10 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "zbirenbaum/copilot.lua",
+    cmd = "Copilot",
+    opts = {},
+    event = "InsertEnter",
+  },
 }
