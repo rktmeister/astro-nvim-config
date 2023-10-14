@@ -9,6 +9,5 @@ return {
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.colorscheme.catppuccin" },
-  { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
 }
