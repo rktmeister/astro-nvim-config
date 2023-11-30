@@ -12,4 +12,5 @@ return {
   { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
   { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.scrolling.mini-animate" },
 }
