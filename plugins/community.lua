@@ -13,4 +13,5 @@ return {
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.scrolling.mini-animate" },
+  { import = "astrocommunity.split-and-window.mini-map" },
 }
