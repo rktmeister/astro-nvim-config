@@ -23,4 +23,15 @@ return {
       vim.keymap.set("n", "<leader>sd", function() possession.delete() end)
     end,
   },
+  -- install with yarn or npm
+  {
+    "iamcco/markdown-preview.nvim",
+    cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+    build = "cd app && yarn install",
+    init = function()
+      vim.g.mkdp_filetypes = { "markdown" }
+      vim.keymap.set("n", "<leader>mp", function() vim.cmd "MarkdownPreviewToggle" end)
+    end,
+    ft = { "markdown" },
+  },
 }
